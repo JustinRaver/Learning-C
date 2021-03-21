@@ -11,7 +11,7 @@ These resources will include:
 * Expert C Programming Deep C Secrets (Peter Van Der Linden)
 
 Each one of these resources will be split into directories based on chapters
-,then exercises, a README Documenting the things learnedd through each 
+,then exercises, a README Documenting the things learned through each 
 chapter, and finally any side programs I may have written while reading that
 chapter. 
 
