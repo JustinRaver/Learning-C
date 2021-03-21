@@ -16,7 +16,6 @@ chapter, and finally any side programs I may have written while reading that
 chapter. 
 
 My hope is this will not only be a resource to me now and in the future, but
-also to others in their journey to learning the C Programming language
-
+also to others in their journey to learning the C Programming language.
 As I progress through this goal I will attempt to update this README with 
 additional resources that I have found helpful.
