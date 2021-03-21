@@ -20,6 +20,7 @@ There is no input or output defined in the C language. All I/O is part of the
 * %6f print as floating point atleast 6 wide
 * %.2f print as floating point, 2 charracters after the decimal
 * %6.2f print as floating point, at least 6 wide and 2 after decimal point
+* %f is used for both float and double
 
 For loops clearly seperated into three parts seperated by semi-colons
 
@@ -42,6 +43,19 @@ getchar() reads the next input character from a text stream and returns its
 value.
 
 putchar() prints a character each time its called
+
+Exercise 1-6 value of (getchar != EOF) value always boolean 1 if true 0 if false
+Exercise 1-7 value of EOF is -1
+
+* Sidenote: CTRL-c send SIGINT  terminating application while CTRL-d tell the
+terminal to send an EOF
+
+
+#### prefix operators(++count --count) does operation before evaluation
+#### postfix operators(count++ count--) does operation after evaluation
+
+
+
 
 
 
