@@ -5,7 +5,7 @@ returning an integer
 
 (#include) is a C macro that is used to include libraries in a C program
 
-Comments can be in the form //(line comment /* */ for a block comment
+Comments can be in the form //(line comment) /* */(block comment)
 
 All C variables must be declared before use
 
