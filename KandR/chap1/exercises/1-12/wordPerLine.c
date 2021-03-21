@@ -13,9 +13,9 @@ int main(){
 			state = OUT;	
 		}else if(state == OUT){
 			state = IN;
-			words++;
+			printf("\n");
 		}
+		putchar(c);
 	}
-	printf("Word Count: %d\n",words);
 	return 0;
 }
