@@ -6,13 +6,13 @@ three major resources in an attempt to better understand the language.
 
 These resources will include: 
 
-* The C Programming language Second Edition (K & R)
+* The C Programming Language Second Edition (K & R)
 * C Programming A Modern Approach Second Edition (K.N.King)
 * Expert C Programming Deep C Secrets (Peter Van Der Linden)
 
-Each one of these resources will be split into directorys based on chapters
-then exercises, a README Documenting the things learnedd through each 
-chapter and finally any side programs I may have written while reading that
+Each one of these resources will be split into directories based on chapters
+,then exercises, a README Documenting the things learnedd through each 
+chapter, and finally any side programs I may have written while reading that
 chapter. 
 
 My hope is this will not only be a resource to me now and in the future, but
