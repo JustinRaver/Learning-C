@@ -54,8 +54,13 @@ terminal to send an EOF
 #### prefix operators(++count --count) does operation before evaluation
 #### postfix operators(count++ count--) does operation after evaluation
 
+functions are structured in the form:
 
+return-type function-name(parameters){
+	declarations
+	statements
+}
 
-
+function declaration: ex: int power(int base, int i);
 
 
