@@ -63,4 +63,8 @@ return-type function-name(parameters){
 
 function declaration: ex: int power(int base, int i);
 
+In C all functions are pass by value so these values are temporary rather than
+the originals. Functions can modify a variable in the calling function when the
+address of the variable is passed.
 
+Arrays are always passed by reference.
