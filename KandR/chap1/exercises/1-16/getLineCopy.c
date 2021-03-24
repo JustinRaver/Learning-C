@@ -6,20 +6,32 @@ int getlines(char line[], int maxline);
 void copy(char to[], char from[]);
 
 int main(){
-
-	int len,max;
-	char line[MAXLINE],longest[MAXLINE];
-
-	max = 0;
-	while((len=getlines(line,MAXLINE)) > 0){
-		if(len > max){
-			max = len;
-			copy(longest, line);
+	long lineLength = 0;
+	int numLines = 0;
+	char line[MAXLINE];
+    int i =0;
+	while((line[i] = getchar()) != EOF){
+		if(i == (MAXLINE-3)){
+			line[MAXLINE-1] = '\0';
+			printf("%s",line);
+			while((line[0]=getchar()) != EOF && line[0] != '\n' ){
+				lineLength++;
+			}
+			printf("Line length of line %d: %ld\n",numLines,lineLength);
+			i = 0;
+		}else{
+			if(line[i] == '\n'){
+				numLines++;
+				printf("Line length of line %d: %ld\n",numLines,lineLength);
+				lineLength = 0;
+				i = 0;
+			}else{
+				lineLength++;
+				i++;
+			}
 		}
 	}
-	if(max > 0){
-		printf("%s", longest);
-	}
+	printf("Total lines: %d\n",numLines);
 	return 0;
 }
 
