@@ -68,3 +68,5 @@ the originals. Functions can modify a variable in the calling function when the
 address of the variable is passed.
 
 Arrays are always passed by reference.
+
+Arrays of characters are terminated by a null terminator '\0'
