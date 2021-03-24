@@ -70,3 +70,24 @@ address of the variable is passed.
 Arrays are always passed by reference.
 
 Arrays of characters are terminated by a null terminator '\0'
+
+When using methods like printf on character arrays there should always be a null
+terminator in the arary.
+
+an external variable must be defined exactly once outside and function. This
+sets aside storage for it. 
+The variable must then also be decalred in each function that wants to acces it
+
+the variable may be an explicit extern statement or implicit based off of the
+context of usage. 
+
+The extern declaration can be omitted if the external variable exists in the
+same source file.
+
+If the definitions occur in another file them the extern declarations are
+necessary. These declaration usually occur in a header file .h
+
+* Definition: refers to the place where the variable is created or assigned
+  storage
+* Declaration refers to places where the nature of the variable is stated but no
+  storage is allocated
